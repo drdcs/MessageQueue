@@ -13,3 +13,4 @@ class Subscriber():
             while len(self.broker.broker_dict[topic]) > 0:
                 x = self.broker.broker_dict[topic].pop(0)
                 print(x)
+
